@@ -6,7 +6,9 @@
 </p>
 
 <p align="center">
-  <img src="assets/geospatial-dashboard.png" width="800" alt="Geospatial Dashboard Preview"/>
+  <a href="https://energy-emissions-analytics-dashboard.streamlit.app/">
+    <img src="geospatial-dashboard.png" width="800" alt="Geospatial Dashboard Preview"/>
+  </a>
 </p>
 
 ---
@@ -138,3 +140,4 @@ streamlit run app.py
 * **Latency Optimization:** Reduced external overhead by architecting a local materialization layer, effectively eliminating redundant API calls and optimizing resource consumption.
 
 * **Architectural Scalability:** Utilized a decoupled MQTT design, allowing for seamless multi-subscriber consumption (e.g., simultaneous database logging and real-time dashboard visualization).
+
